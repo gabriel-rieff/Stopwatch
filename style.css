@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{margin: 0;    padding: 0;}
+
+body {
+    background-color: #383838;
+    color: #FFF;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: #2F2F2F;
+    max-width: 800px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+    }
+
+    span{
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+
+.tempo {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 115px;
+    }
+
+.bottuns {
+    height: 100px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+.botao1 {
+    background-color: #FFA800;
+}
+
+.botao2 {
+    background-color: #12163a;
+}
+
+.botao3 {
+    background-color: #FFA800;
+}
+
+.botao1:hover {
+    transform: scale(1.05);
+    background: #000;
+    transition: 0.4s all;
+}
+
+.botao2:hover {
+    transform: scale(1.08);
+    background: #000;
+    transition: 0.4s all;
+}
+
+.botao3:hover {
+    transform: scale(1.05);
+    background: #000;
+    transition: 0.4s all;
+}
+
+.icons a{
+    height: 500px;
+    width: 300px;
+    background-color: #FFF;
+    font-size: 45px;
+}
+
+@media (max-width: 830px){
+
+    body{
+        background-color: #2F2F2F;
+    }
+
+    .bottuns {
+        height: 75px;
+        width: 150px;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin: 10px;
+        margin-top: 30px;
+
+    }
+}
+
+
+@media (max-width: 680px){
+
+    body{
+        background-color: #2F2F2F;
+    }
+
+    .ContentContainer {
+        padding: 2rem;
+        max-width: 400px;
+        height: 300px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;;
+        }
+
+    .bottuns {
+        height: 40px;
+        width: 75px;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 0.8rem;
+        cursor: pointer;
+        margin: 10px;
+        margin-top: 30px;
+
+    }
+
+    .tempo{
+        font-weight: 900;
+        font-size: 5rem;
+    }
+}
